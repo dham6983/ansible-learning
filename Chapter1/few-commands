@@ -1,1 +1,2 @@
-ansible -i ~/.ssh/ansible-learning/inventory test -m ping -u ec2-user
+ansible -i ~/ansible-learning/inventory test -m ping -u ec2-user
+ansible -i ~/ansible-learning/inventory test -m command -a "date" -u ec2-user
